@@ -1,0 +1,14 @@
+@echo off
+title Launching Regal Calibration Registry...
+echo 🚀 Starting your local database application engine...
+
+:: 1. Navigate to your project directory
+cd /d "C:\Users\610183253\Documents\new calibration"
+
+:: 2. Activate the python virtual environment background lines
+call .venv\Scripts\activate
+
+:: 3. Fire up the browser dashboard
+streamlit run app.py
+
+pause
